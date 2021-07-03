@@ -93,3 +93,15 @@ ul {
 .main {
   flex: 1 1 auto;
 }
+
+
+
+@import 'mixins';
+
+.custom-checkbox {
+  @include custom-checkbox;
+}
+
+.custom-radio {
+  @include custom-radio;
+}
